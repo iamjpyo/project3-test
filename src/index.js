@@ -1,19 +1,21 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
+//import './index.css';
+//import App from './App';
 import * as serviceWorker from './serviceWorker';
 
 import { BrowserRouter, Route, Switch, Redirect } from "react-router-dom";
 
 import "./assets/css/nucleo-icons.css";
 import "./assets/scss/blk-design-system-react.scss?v=1.0.0";
+//import "./assets/css/blk-design-system-react.css";
 import "./assets/demo/demo.css";
 
 import Index from "./views/Index.jsx";
 import LandingPage from "./views/examples/LandingPage.jsx";
 import RegisterPage from "./views/examples/RegisterPage.jsx";
 import ProfilePage from "./views/examples/ProfilePage.jsx";
+import JPlanding from "./views/examples/landing.jsx";
 
 ReactDOM.render(
     <BrowserRouter>
@@ -30,6 +32,10 @@ ReactDOM.render(
             <Route
                 path="/profile-page"
                 render={props => <ProfilePage {...props} />}
+            />
+            <Route
+                path="/landing-jp"
+                render={props => <JPlanding {...props} />}
             />
             <Redirect from="/" to="/components" />
         </Switch>
