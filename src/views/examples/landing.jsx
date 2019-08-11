@@ -27,6 +27,7 @@ import {
 // core components
 import ExamplesNavbar from "../../components/Navbars/ExamplesNavbar.jsx";
 import Footer from "../../components/Footer/Footer.jsx";
+import { Link } from "react-router-dom";
 
 class JPlanding extends React.Component {
     state = {
@@ -65,7 +66,7 @@ class JPlanding extends React.Component {
     render() {
         return (
             <>
-                <ExamplesNavbar /> 
+                <ExamplesNavbar />
 
                 <div className="wrapper">
                     <div className="page-header">
@@ -167,7 +168,7 @@ class JPlanding extends React.Component {
                                         <CardBody>
                                             <Row>
                                                 <Col className="text-center" md="12">
-                                                    <h4 className="text-uppercase">Individual</h4>
+                                                    <h4 className="text-uppercase">Individual 01</h4>
                                                     <span>Features</span>
                                                     <hr className="line-primary" />
                                                 </Col>
@@ -199,7 +200,7 @@ class JPlanding extends React.Component {
                                         <CardBody>
                                             <Row>
                                                 <Col className="text-center" md="12">
-                                                    <h4 className="text-uppercase">Co-op</h4>
+                                                    <h4 className="text-uppercase">Co-op 02</h4>
                                                     <span>Features</span>
                                                     <hr className="line-success" />
                                                 </Col>
@@ -231,7 +232,7 @@ class JPlanding extends React.Component {
                                         <CardBody>
                                             <Row>
                                                 <Col className="text-center" md="12">
-                                                    <h4 className="text-uppercase">Bussiness</h4>
+                                                    <h4 className="text-uppercase">Bussiness 03</h4>
                                                     <span>Features</span>
                                                     <hr className="line-info" />
                                                 </Col>
@@ -245,9 +246,14 @@ class JPlanding extends React.Component {
                                             </Row>
                                         </CardBody>
                                         <CardFooter className="text-center">
-                                            <Button className="btn-simple" color="info">
+                                            <Button 
+                                                className="btn-simple" 
+                                                color="info" 
+                                                to="reserve"
+                                                tag={Link}
+                                            >
                                                 Reserve
-                      </Button>
+                                            </Button>
                                         </CardFooter>
                                     </Card>
                                 </Col>

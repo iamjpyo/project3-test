@@ -16,6 +16,7 @@ import LandingPage from "./views/examples/LandingPage.jsx";
 import RegisterPage from "./views/examples/RegisterPage.jsx";
 import ProfilePage from "./views/examples/ProfilePage.jsx";
 import JPlanding from "./views/examples/landing.jsx";
+import Reserve from "./views/examples/reserve.jsx"
 
 ReactDOM.render(
     <BrowserRouter>
@@ -36,6 +37,10 @@ ReactDOM.render(
             <Route
                 path="/landing-jp"
                 render={props => <JPlanding {...props} />}
+            />
+            <Route
+                path="/reserve"
+                render={props => <Reserve {...props} />}
             />
             <Redirect from="/" to="/components" />
         </Switch>

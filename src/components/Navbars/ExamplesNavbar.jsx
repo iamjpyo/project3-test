@@ -74,7 +74,7 @@ class PagesNavbar extends React.Component {
               data-placement="bottom"
               to="/"
               rel="noopener noreferrer"
-              title="Designed and Coded by Creative Tim"
+              title="adada"
               tag={Link}
             >
               <span>UM </span>
