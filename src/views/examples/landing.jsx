@@ -65,7 +65,8 @@ class JPlanding extends React.Component {
     render() {
         return (
             <>
-                <ExamplesNavbar />
+                <ExamplesNavbar /> 
+
                 <div className="wrapper">
                     <div className="page-header">
 
@@ -77,8 +78,8 @@ class JPlanding extends React.Component {
                                         <span className="text-white">secured</span>
                                     </h1>
                                     <p className="text-white mb-3">
-                                        
-                  </p>
+
+                                    </p>
                                     <div className="btn-wrapper mb-3">
                                         <p className="category text-success d-inline">
                                             From 9.99%/mo
@@ -173,8 +174,8 @@ class JPlanding extends React.Component {
                                             </Row>
                                             <Row>
                                                 <ListGroup>
-                                                    <ListGroupItem>50 messages</ListGroupItem>
-                                                    <ListGroupItem>100 emails</ListGroupItem>
+                                                    <ListGroupItem>Sharing desk</ListGroupItem>
+                                                    <ListGroupItem>Free coffe</ListGroupItem>
                                                     <ListGroupItem>24/7 Support</ListGroupItem>
                                                 </ListGroup>
                                             </Row>
@@ -199,7 +200,7 @@ class JPlanding extends React.Component {
                                             <Row>
                                                 <Col className="text-center" md="12">
                                                     <h4 className="text-uppercase">Co-op</h4>
-                                                    <span>Plan</span>
+                                                    <span>Features</span>
                                                     <hr className="line-success" />
                                                 </Col>
                                             </Row>
@@ -231,7 +232,7 @@ class JPlanding extends React.Component {
                                             <Row>
                                                 <Col className="text-center" md="12">
                                                     <h4 className="text-uppercase">Bussiness</h4>
-                                                    <span>Plan</span>
+                                                    <span>Features</span>
                                                     <hr className="line-info" />
                                                 </Col>
                                             </Row>
