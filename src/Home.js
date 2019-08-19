@@ -1,13 +1,14 @@
 import React, { Component } from 'react';
 import fire from './config/Fire';
 import Form from './Form';
+// import Calendar from "./Calendar";
 
 const divStyle = {
     color: 'white',
     width: '25%',
     background: 'blue',
     padding: '10px',
-    margin: '5px',
+    margin: '15px',
 };
 
 class Home extends Component {
@@ -23,9 +24,12 @@ class Home extends Component {
     render() {
         return (
             <div className="col-md-6">
-                <h1>Welcome</h1>
-                <button onClick={this.logout} style={divStyle}>Logout</button>
+                <h1>Reservation System</h1>
                 <Form />
+                <br />
+                {/* <Calendar /> */}
+                <br />
+                <button onClick={this.logout} style={divStyle}>Logout</button>
             </div>
 
         );

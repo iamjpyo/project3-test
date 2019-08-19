@@ -1,24 +1,22 @@
-import React, { Component }  from 'react';
-import fire from './config/Fire';
+import React, { Component } from 'react';
 import './App.css';
-import Login from './Login';
+import "bootstrap/dist/css/bootstrap.min.css";
 import Home from './Home';
-
-
-
-
+import Login from "./Login";
+import fire from './config/Fire';
 
 
 
 class App extends Component {
-  constructor(props){
+
+  constructor(props) {
     super(props);
     this.state = {
-      user:{},
+      user: {},
     }
   }
 
-  componentDidMount(){
+  componentDidMount() {
     this.authListener();
   }
 
@@ -37,9 +35,12 @@ class App extends Component {
 
   render() {
     return (
-      <div className="App">
-        {this.state.user ? (<Home />) : (<Login/>)}
-      
+      <div>
+        <div className="App">
+          {this.state.user ? (<Home />) : (<Login />)}
+
+        </div>
+
       </div>
     );
   }
