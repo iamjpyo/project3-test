@@ -153,14 +153,10 @@ class PagesNavbar extends React.Component {
                 </NavLink>
               </NavItem>
               <NavItem>
-                <NavLink tag={Link} to="/">
-                  Back to Kit
-                </NavLink>
+                
               </NavItem>
               <NavItem>
-                <NavLink href="https://github.com/creativetimofficial/blk-design-system-react/issues">
-                  Have an issue?
-                </NavLink>
+                
               </NavItem>
             </Nav>
           </Collapse>

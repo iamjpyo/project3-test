@@ -75,25 +75,17 @@ class JPlanding extends React.Component {
                             <Row className="row-grid justify-content-between align-items-center text-left">
                                 <Col lg="6" md="6">
                                     <h1 className="text-white">
-                                        El Socio keep your room <br />
-                                        <span className="text-white">secured</span>
+                                        Scroll down to reserve a conference room!<br />
+                                        <span className="text-white"></span>
                                     </h1>
                                     <p className="text-white mb-3">
 
                                     </p>
                                     <div className="btn-wrapper mb-3">
                                         <p className="category text-success d-inline">
-                                            From 9.99%/mo
+                                            From $35 per hour
                     </p>
-                                        <Button
-                                            className="btn-link"
-                                            color="success"
-                                            href="#pablo"
-                                            onClick={e => e.preventDefault()}
-                                            size="sm"
-                                        >
-                                            <i className="tim-icons icon-minimal-right" />
-                                        </Button>
+                                        
                                     </div>
                                     <div className="btn-wrapper">
                                         <div className="button-container">
@@ -128,7 +120,7 @@ class JPlanding extends React.Component {
                                     <img
                                         alt="..."
                                         className="img-fluid"
-                                        src={require("../../assets/img/etherum.png")}
+                                        src={require("../../assets/img/pipeline2.png")}
                                     />
                                 </Col>
                             </Row>
@@ -150,7 +142,7 @@ class JPlanding extends React.Component {
                                 <Col md="4">
                                     <hr className="line-info" />
                                     <h1>
-                                        Choose the room{" "}
+                                        Choose the conference room{" "}
                                         <span className="text-info">that fits your needs</span>
                                     </h1>
                                 </Col>
@@ -162,22 +154,24 @@ class JPlanding extends React.Component {
                                             <img
                                                 alt="..."
                                                 className="img-center img-fluid"
-                                                src={require("../../assets/img/bitcoin.png")}
+                                                src={require("../../assets/img/pipeline.png")}
                                             />
                                         </CardHeader>
                                         <CardBody>
                                             <Row>
                                                 <Col className="text-center" md="12">
-                                                    <h4 className="text-uppercase">Individual 01</h4>
-                                                    <span>Features</span>
+                                                    <h4 className="text-uppercase">Large conference room</h4>
+                                                    <span>$85 per hour</span>
                                                     <hr className="line-primary" />
                                                 </Col>
                                             </Row>
                                             <Row>
                                                 <ListGroup>
-                                                    <ListGroupItem>Sharing desk</ListGroupItem>
-                                                    <ListGroupItem>Free coffe</ListGroupItem>
-                                                    <ListGroupItem>24/7 Support</ListGroupItem>
+                                                    <ListGroupItem>Up to 16 seats</ListGroupItem>
+                                                    <ListGroupItem>Staff support</ListGroupItem>
+                                                    <ListGroupItem>Unlimited Coffee</ListGroupItem>
+                                                    <ListGroupItem>Internet access</ListGroupItem>
+                                                    <ListGroupItem>Monitor with HDMI and Chromecast</ListGroupItem>
                                                 </ListGroup>
                                             </Row>
                                         </CardBody>
@@ -194,22 +188,24 @@ class JPlanding extends React.Component {
                                             <img
                                                 alt="..."
                                                 className="img-center img-fluid"
-                                                src={require("../../assets/img/etherum.png")}
+                                                src={require("../../assets/img/pipeline.png")}
                                             />
                                         </CardHeader>
                                         <CardBody>
                                             <Row>
                                                 <Col className="text-center" md="12">
-                                                    <h4 className="text-uppercase">Co-op 02</h4>
-                                                    <span>Features</span>
+                                                    <h4 className="text-uppercase">Small conference room</h4>
+                                                    <span>$65 per hour</span>
                                                     <hr className="line-success" />
                                                 </Col>
                                             </Row>
                                             <Row>
                                                 <ListGroup>
-                                                    <ListGroupItem>150 messages</ListGroupItem>
-                                                    <ListGroupItem>1000 emails</ListGroupItem>
-                                                    <ListGroupItem>24/7 Support</ListGroupItem>
+                                                    <ListGroupItem>Up to 8 seats</ListGroupItem>
+                                                    <ListGroupItem>Staff support</ListGroupItem>
+                                                    <ListGroupItem>Unlimited Coffee</ListGroupItem>
+                                                    <ListGroupItem>Internet access</ListGroupItem>
+                                                    <ListGroupItem>Monitor with HDMI and Chromecast</ListGroupItem>
                                                 </ListGroup>
                                             </Row>
                                         </CardBody>
@@ -226,22 +222,24 @@ class JPlanding extends React.Component {
                                             <img
                                                 alt="..."
                                                 className="img-center img-fluid"
-                                                src={require("../../assets/img/ripp.png")}
+                                                src={require("../../assets/img/pipeline.png")}
                                             />
                                         </CardHeader>
                                         <CardBody>
                                             <Row>
                                                 <Col className="text-center" md="12">
-                                                    <h4 className="text-uppercase">Bussiness 03</h4>
-                                                    <span>Features</span>
+                                                    <h4 className="text-uppercase">Common area meeting day pass</h4>
+                                                    <span>$35 per hour</span>
                                                     <hr className="line-info" />
                                                 </Col>
                                             </Row>
                                             <Row>
                                                 <ListGroup>
-                                                    <ListGroupItem>350 messages</ListGroupItem>
-                                                    <ListGroupItem>10K emails</ListGroupItem>
-                                                    <ListGroupItem>24/7 Support</ListGroupItem>
+                                                    <ListGroupItem>Workspace day pass for non members</ListGroupItem>
+                                                    <ListGroupItem>Staff support</ListGroupItem>
+                                                    <ListGroupItem>Unlimited Coffee</ListGroupItem>
+                                                    <ListGroupItem>Internet access</ListGroupItem>
+                                                    <ListGroupItem>Access to common meeting areas</ListGroupItem>
                                                 </ListGroup>
                                             </Row>
                                         </CardBody>
