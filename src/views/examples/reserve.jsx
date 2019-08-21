@@ -116,29 +116,33 @@ class Reserve extends React.Component {
                                 <Col md="6">
                                     <Card className="card-plain">
                                         <CardHeader>
-                                            <h1 className="profile-title text-left">Room</h1>
-                                            <h5 className="text-on-back">03</h5>
+                                            <h1 className="profile-title text-left">Reservation</h1>
+                                            <h5 className="text-on-back">Room</h5>
                                         </CardHeader>
                                         <CardBody>
                                             <Form>
                                                 <Row>
                                                     <Col md="6">
+
+                                                        
+
+
                                                         <FormGroup>
                                                             <label>Your Name</label>
-                                                            <Input defaultValue="Mike" type="text" />
+                                                            <Input Placeholder="First and Last name" type="text" />
                                                         </FormGroup>
                                                     </Col>
                                                     <Col md="6">
                                                         <FormGroup>
-                                                            <label>Email address</label>
+                                                            <label>Description</label>
                                                             <Input
-                                                                placeholder="mike@email.com"
-                                                                type="email"
+                                                                placeholder="Description"
+                                                                //type="email"
                                                             />
                                                         </FormGroup>
                                                     </Col>
                                                 </Row>
-                                                <Row>
+                                                {/*<Row>
                                                     <Col md="6">
                                                         <FormGroup>
                                                             <label>Phone</label>
@@ -159,7 +163,7 @@ class Reserve extends React.Component {
                                                             <Input placeholder="Hello there!" type="text" />
                                                         </FormGroup>
                                                     </Col>
-                                                </Row>
+                                                </Row>*/}
                                                 <Button
                                                     className="btn-round float-right"
                                                     color="primary"
@@ -175,22 +179,22 @@ class Reserve extends React.Component {
                                                     target="tooltip341148792"
                                                 >
                                                     Can't wait for your message
-                        </UncontrolledTooltip>
+                                                </UncontrolledTooltip>
                                             </Form>
                                         </CardBody>
                                     </Card>
-                                </Col>
+                                </Col> 
                                 <Col className="ml-auto" md="4">
                                     <div className="info info-horizontal">
                                         <div className="icon icon-primary">
                                             <i className="tim-icons icon-square-pin" />
                                         </div>
                                         <div className="description">
-                                            <h4 className="info-title">Find us at the office</h4>
+                                            <h4 className="info-title">Find us at the workspace</h4>
                                             <p>
-                                                Bld Mihail Kogalniceanu, nr. 8, <br />
-                                                7652 Brickell, <br />
-                                                Miami
+                                                1101 Brickell Ave. S-800, <br />
+                                                Miami, FL <br />
+                                                33131
                       </p>
                                         </div>
                                     </div>
@@ -199,11 +203,11 @@ class Reserve extends React.Component {
                                             <i className="tim-icons icon-mobile" />
                                         </div>
                                         <div className="description">
-                                            <h4 className="info-title">Give us a ring</h4>
+                                            <h4 className="info-title">Call us directly</h4>
                                             <p>
-                                                Jp el socio <br />
-                                                +786 <br />
-                                                Mon - Fri, 8:00-22:00
+                                                Pipeline Workspaces <br />
+                                                +786-271-0573 <br />
+                                                Mon - Fri, 8:30AM-06:00PM
                       </p>
                                         </div>
                                     </div>

@@ -176,7 +176,10 @@ class JPlanding extends React.Component {
                                             </Row>
                                         </CardBody>
                                         <CardFooter className="text-center">
-                                            <Button className="btn-simple" color="primary">
+                                            <Button className="btn-simple" 
+                                                color="primary" 
+                                                to="reserve"
+                                                tag={Link}>
                                                 Reserve
                       </Button>
                                         </CardFooter>
@@ -210,7 +213,12 @@ class JPlanding extends React.Component {
                                             </Row>
                                         </CardBody>
                                         <CardFooter className="text-center">
-                                            <Button className="btn-simple" color="success">
+                                        <Button 
+                                                className="btn-simple" 
+                                                color="success" 
+                                                to="reserve"
+                                                tag={Link}
+                                            >
                                                 Reserve
                       </Button>
                                         </CardFooter>
